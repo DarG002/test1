@@ -1,0 +1,32 @@
+{
+  "name": "framework",
+  "version": "0.1.1",
+  "description": "framework",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat-css": "^2.1.1",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-less": "^3.0.1",
+    "gulp-livereload": "^3.8.0",
+    "gulp-minify-css": "^0.5.1",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.1.0",
+    "gulp-uncss": "^1.0.0",
+    "wiredep": "^2.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Framework"
+  ],
+  "author": "Afonin Oleg"
+}

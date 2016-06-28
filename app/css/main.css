@@ -1,0 +1,14 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  outline: none;
+}
+/* Small devices (tablets, 768px and down) */
+footer {
+  height: 200px;
+  background-color: #000000;
+}

@@ -1,0 +1,22 @@
+// Layer generator
+
+.mixin-layers(@number-layers) {
+
+	.generate-layer(@number-layers);
+
+	.generate-layer(@n, @i: 1) when (@i =< @n) {
+		@layer: "layer-@{i}.png";
+  		#layer-@{i} {
+  			height: 900px;
+  			width: 100%;
+    		background-image: url('../img/@{layer}');
+    		background-repeat: no-repeat;
+    		background-size: auto;
+    		background-position: center bottom;
+    		position: absolute;
+    		z-index: 10;
+  		}
+
+  		.generate-layer(@n, (@i + 1));
+	}
+}

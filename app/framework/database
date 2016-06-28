@@ -1,0 +1,10 @@
+<?php
+$data = array(
+    'default' => array(
+        'driver'    => 'mysql',
+        'host'      => 'angara1.beget.com',
+        'user'      => 'oasimp_test1',
+        'pass'      => '123456',
+        'dbname'    => 'oasimp_test1'
+    ),
+);
